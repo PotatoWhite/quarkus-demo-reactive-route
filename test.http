@@ -1,0 +1,18 @@
+POST localhost:8080/demo/person/1
+Accept: application/json
+
+{
+"name":"potato",
+"email":"test@test.com"
+}
+
+###
+
+POST localhost:8080/validation/person?id=1
+Content-Type: application/json
+
+{
+"name":null,
+"email":"test@test.com"
+}
+
